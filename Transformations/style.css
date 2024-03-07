@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translatex(100px) rotateZ(45deg) scale(0.5);
+}
+#box1{    
+    background-color: lightblue;
+    /* transform: translateX(100px);  translate = to move an element 
+    transform: translateY();
+    transform: translate();
+    transform: rotatex(45deg);
+    transform: rotateY('angle'); 
+    transform: rotateZ();
+    transform: scale(2);   scale = to enlarge or reduce an element 
+    transform: scaleX();
+    transform: scaleY(); 
+    transform: skew();   skew = to stretch an element in some direction
+    transform: skewx(45deg); 
+    transform: skewy();     */
+}
+#box2{    
+    background-color: lightcoral;
+}
+#box3{    
+    background-color: lightgreen;
+}

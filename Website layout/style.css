@@ -1,0 +1,46 @@
+*{ /* using * we are selecting all elements */
+    box-sizing: border-box; /* when calculating the width for elements, 
+                               this property will factor in the padding */
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: grey;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width: 600px){ /* this "at" or @ rule will make that if the
+                                         width of a screen is 600px or less, 
+                                         will change some css properties */
+    aside, section, article{ /* if screen width is less than 600px, each of these 
+                                elements will take a width of 100% */
+        width: 100%;
+    }    
+}
